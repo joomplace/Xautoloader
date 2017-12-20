@@ -14,5 +14,6 @@ class PlgSystemJoomPlaceXAutoloader extends Joomla\CMS\Plugin\CMSPlugin
         include_once JPATH_LIBRARIES . DIRECTORY_SEPARATOR . 'JoomPlaceX'. DIRECTORY_SEPARATOR . 'Loader.php';
         Joomplace\X\Loader::boot();
         parent::__construct($subject, $config);
+
     }
 }
