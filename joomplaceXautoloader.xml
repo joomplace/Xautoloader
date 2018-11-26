@@ -5,11 +5,17 @@
 	<creationDate>July 2017</creationDate>
 	<copyright>Copyright (C) 2005 - 2017 JoomPlace. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<authorEmail>admin@joomla.org</authorEmail>
-	<authorUrl>www.joomla.org</authorUrl>
+	<authorEmail>support@joomplace.com</authorEmail>
+	<authorUrl>www.joomplace.com</authorUrl>
 	<version>1.0.0</version>
 	<description>PLG_SYSTEM_JOOMPLACEXAUTOLOADER_XML_DESCRIPTION</description>
+	<scriptfile>script.php</scriptfile>
 	<files>
 		<filename plugin="joomplaceXautoloader">joomplaceXautoloader.php</filename>
+		<filename>script.php</filename>
 	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_joomplaceXautoloader.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_joomplaceXautoloader.sys.ini</language>
+	</languages>
 </extension>
